@@ -19,7 +19,7 @@ const UserList = () => {
     <>
         <div>
             <h1>
-                UserList
+                User List
             </h1>
         {
             userList ? (
@@ -32,7 +32,7 @@ const UserList = () => {
                         ))
                     }
                 </ul>
-            ) : <p>Loding</p>
+            ) : <div>Loading...</div>
         }
         </div>
     </>
